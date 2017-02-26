@@ -5,12 +5,13 @@
 </div>
 <br>
 
-> Default theme for [Oh My Fish][omf-link].
+> Default theme for [Oh My Fish][omf-link]. With added [pyenv][] prompt.
 
 ## Install
 
 ```fish
-$ omf theme default
+$ omf install https://github.com/TeNNoX/oh-my-fish-theme-default-pyenv
+$ omf theme oh-my-fish-theme-default-pyenv
 ```
 
 ## Features
@@ -41,6 +42,7 @@ Only display the folder name:
 [author]:         http://github.com/bpinto
 [contributors]:   https://github.com/oh-my-fish/theme-default/graphs/contributors
 [omf-link]:       https://www.github.com/fish-shell/oh-my-fish
+[pyenv]:          https://github.com/yyuu/pyenv
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
 [travis-badge]:   http://img.shields.io/travis/oh-my-fish/theme-default.svg?style=flat-square
